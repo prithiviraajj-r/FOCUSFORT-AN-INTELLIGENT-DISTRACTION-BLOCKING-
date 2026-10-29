@@ -1,0 +1,44 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+    
+    <group android:pivotX="100" android:pivotY="100">
+        <!-- Thin white circle -->
+        <path
+            android:fillColor="#00000000"
+            android:strokeColor="#80FFFFFF"
+            android:strokeWidth="3"
+            android:pathData="M 100,44 A 56,56 0 1,0 100,156 A 56,56 0 1,0 100,44 Z" />
+            
+        <!-- Ticks -->
+        <!-- 12 o'clock -->
+        <path android:strokeColor="#FFFFFF" android:strokeWidth="4" android:strokeLineCap="round" android:pathData="M 100,44 L 100,34" />
+        <!-- 3 o'clock -->
+        <path android:strokeColor="#FFFFFF" android:strokeWidth="4" android:strokeLineCap="round" android:pathData="M 156,100 L 166,100" />
+        <!-- 6 o'clock -->
+        <path android:strokeColor="#FFFFFF" android:strokeWidth="4" android:strokeLineCap="round" android:pathData="M 100,156 L 100,166" />
+        <!-- 9 o'clock -->
+        <path android:strokeColor="#FFFFFF" android:strokeWidth="4" android:strokeLineCap="round" android:pathData="M 44,100 L 34,100" />
+        
+        <!-- Minor ticks (approximated for brevity) -->
+        <!-- 1, 2, 4, 5, 7, 8, 10, 11 -->
+        <path android:strokeColor="#FFFFFF" android:strokeWidth="2" android:strokeLineCap="round" android:pathData="M 128,47.4 L 133,38.7" />
+        <path android:strokeColor="#FFFFFF" android:strokeWidth="2" android:strokeLineCap="round" android:pathData="M 148.6,68 L 157.3,63" />
+        <path android:strokeColor="#FFFFFF" android:strokeWidth="2" android:strokeLineCap="round" android:pathData="M 148.6,132 L 157.3,137" />
+        <path android:strokeColor="#FFFFFF" android:strokeWidth="2" android:strokeLineCap="round" android:pathData="M 128,152.6 L 133,161.3" />
+        <path android:strokeColor="#FFFFFF" android:strokeWidth="2" android:strokeLineCap="round" android:pathData="M 72,152.6 L 67,161.3" />
+        <path android:strokeColor="#FFFFFF" android:strokeWidth="2" android:strokeLineCap="round" android:pathData="M 51.4,132 L 42.7,137" />
+        <path android:strokeColor="#FFFFFF" android:strokeWidth="2" android:strokeLineCap="round" android:pathData="M 51.4,68 L 42.7,63" />
+        <path android:strokeColor="#FFFFFF" android:strokeWidth="2" android:strokeLineCap="round" android:pathData="M 72,47.4 L 67,38.7" />
+        
+        <!-- Cyan Arc (Quarter circle progress) -->
+        <path
+            android:fillColor="#00000000"
+            android:strokeColor="#00E5FF"
+            android:strokeWidth="10"
+            android:strokeLineCap="round"
+            android:pathData="M 100,44 A 56,56 0 0,1 156,100" />
+    </group>
+</vector>

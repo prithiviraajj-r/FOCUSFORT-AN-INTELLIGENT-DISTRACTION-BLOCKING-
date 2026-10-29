@@ -1,0 +1,27 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+    
+    <!-- Left to Right Top Crenellations, Down to bottom point -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="12"
+        android:strokeLineJoin="round"
+        android:pathData="M 40,50 
+                          L 40,30 L 70,30 L 70,44 
+                          L 100,24 
+                          L 130,44 L 130,30 L 160,30 L 160,50 
+                          Q 160,140 100,180 
+                          Q 40,140 40,50 Z" />
+
+    <!-- Inner Arch (Eye shape base) -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="12"
+        android:strokeLineCap="round"
+        android:pathData="M 42,130 Q 100,80 158,130" />
+</vector>

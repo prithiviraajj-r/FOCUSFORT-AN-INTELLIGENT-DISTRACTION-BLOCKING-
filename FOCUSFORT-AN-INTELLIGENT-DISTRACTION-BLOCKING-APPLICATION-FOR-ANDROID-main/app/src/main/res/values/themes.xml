@@ -1,0 +1,19 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.FocusFortvs" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+    </style>
+
+    <style name="Theme.FocusFortvs" parent="Base.Theme.FocusFortvs" />
+
+    <!--
+        Splash Screen Theme — intentionally minimal.
+        The background matches the first frame of our Compose cinematic animation
+        (light sand) so there is zero visual pop or flicker on launch.
+        No icon is shown here; the Compose Canvas IS the splash.
+    -->
+    <style name="Theme.FocusFortvs.Splash" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">#F5F5F0</item>
+        <item name="postSplashScreenTheme">@style/Theme.FocusFortvs</item>
+    </style>
+</resources>

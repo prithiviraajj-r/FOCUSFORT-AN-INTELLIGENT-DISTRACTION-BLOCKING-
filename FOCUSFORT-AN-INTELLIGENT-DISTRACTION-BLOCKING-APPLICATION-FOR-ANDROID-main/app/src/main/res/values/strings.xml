@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">FocusFort</string>
+    <string name="accessibility_service_name">FocusFort block watcher</string>
+    <string name="accessibility_service_description">Monitors the foreground app and shows a lock screen for blocked apps.</string>
+</resources>

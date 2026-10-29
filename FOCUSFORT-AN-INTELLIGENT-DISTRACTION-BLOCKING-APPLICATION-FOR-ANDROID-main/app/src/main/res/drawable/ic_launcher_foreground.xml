@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <!-- Stylized FocusFort Shield & Timer Logo -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M54,18 L24,30 L24,54 C24,78 54,96 54,96 C54,96 84,78 84,54 L84,30 Z M54,26 L76,34 L76,54 C76,72 54,86 54,86 C54,86 32,72 32,54 L32,34 Z" />
+        
+    <!-- Timer/Eye center -->
+    <path
+        android:fillColor="#00E5FF"
+        android:pathData="M54,40 A14,14 0 1,0 68,54 A14,14 0 0,0 54,40 Z M54,64 A10,10 0 1,1 64,54 A10,10 0 0,1 54,64 Z M54,48 A6,6 0 1,0 60,54 A6,6 0 0,0 54,48 Z" />
+</vector>

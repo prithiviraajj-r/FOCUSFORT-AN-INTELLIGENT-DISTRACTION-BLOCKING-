@@ -1,0 +1,19 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+
+    <!-- Random jagged lines representing a crack radiating from the center -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="2"
+        android:strokeLineJoin="round"
+        android:pathData="M 100,100 L 120,60 L 150,40 L 190,50
+                          M 100,100 L 140,120 L 170,110 L 195,130
+                          M 100,100 L 90,140 L 110,170 L 100,195
+                          M 100,100 L 60,110 L 40,150 L 10,160
+                          M 100,100 L 70,80 L 40,70 L 15,30
+                          M 100,100 L 90,50 L 70,20 L 95,5" />
+</vector>

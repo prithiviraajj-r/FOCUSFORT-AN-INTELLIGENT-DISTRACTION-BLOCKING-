@@ -1,0 +1,28 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+
+    <!-- Central Glowing Dot -->
+    <path
+        android:fillColor="#00E5FF"
+        android:pathData="M 100,90 A 10,10 0 1,1 100,110 A 10,10 0 1,1 100,90 Z" />
+
+    <!-- Lens Ring -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#00E5FF"
+        android:strokeWidth="6"
+        android:pathData="M 100,70 A 30,30 0 1,1 100,130 A 30,30 0 1,1 100,70 Z" />
+
+    <!-- Crosshairs -->
+    <!-- Top -->
+    <path android:strokeColor="#FFFFFF" android:strokeWidth="3" android:pathData="M 100,70 L 100,55" />
+    <!-- Bottom -->
+    <path android:strokeColor="#FFFFFF" android:strokeWidth="3" android:pathData="M 100,130 L 100,145" />
+    <!-- Left -->
+    <path android:strokeColor="#FFFFFF" android:strokeWidth="3" android:pathData="M 70,100 L 55,100" />
+    <!-- Right -->
+    <path android:strokeColor="#FFFFFF" android:strokeWidth="3" android:pathData="M 130,100 L 145,100" />
+</vector>
